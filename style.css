@@ -5,7 +5,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 body{
-    padding-top: 100px;
+    padding-top: 70px;
    text-align: center;
    overflow-x: hidden !important;
    
@@ -19,7 +19,7 @@ body{
     width: 100%;
 }
 .header-contant{
-    padding-top: 140px;
+    padding-top: 70px;
 }
 .header-contant img{
     height: 150px;
@@ -95,8 +95,8 @@ body{
     }
   }
 .header-img img{
-    height: 600px;
-    width: 675px;
+    height: 580px;
+    width: 620px;
 }
 .header-img{
 }
@@ -148,7 +148,7 @@ body{
     padding: 20px;
     text-align: center;
     transition: all 500ms ease-in-out;
-    background-color: #eee;
+    background-color: #4D8AF0;
   }
 .cardItem:hover {
     margin-top: 52px;
@@ -160,15 +160,20 @@ body{
     padding: 20px;
     font-weight: 900;
 }
+.m-colors img{
+    width: 1520px;
+    height: 580px;
+}
 #contact{
     background-color: #4D8AF0;
     color: #ffffff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 #contact img{
+    padding-left: inherit;
     margin-top: 70px;
-    width: 380px;
+    width: 340px;
     height: 240px;
 }
 #contact .text1{
@@ -185,12 +190,16 @@ body{
     height: 360px;
     width: 380px;
 }
+.last-foot p{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
 .last-foot{
     background-color: #575A89; 
     padding: 10px;
     text-align: center !important;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -251,7 +260,7 @@ body{
 
 
 #tic{
-    animation: ticc 1.5s infinite linear;
+    animation: ticc 1.5s infinite;
     transform-origin: center;
 }
 #hand{
