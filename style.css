@@ -113,7 +113,8 @@ body{
     width: 560px;
     height: 500px;
 }
-.keypoints img{
+.keypoints img,
+.keypoints svg{
     height: 80px;
     width: 80px;
 }
