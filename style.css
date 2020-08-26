@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    padding-top: 100px;
+   text-align: center;
+   overflow-x: hidden !important;
+   
+}
+.navbar{
+    background-color: #fff;
+}
+.header{
+    padding-top: 50px;
+    height: 100vh;
+    width: 100%;
+}
+.header-contant{
+    padding-top: 140px;
+}
+.header-contant img{
+    height: 150px;
+    width: 390px;
+}
+
+
+.slider {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin: auto;
+  
+    .slide {
+      display: none;
+      height: 100%;
+      width: 100%;
+  
+      img {
+        height: 100%;
+        width: 100%;
+        filter: contrast(90%);
+        object-fit: cover;
+      }
+  
+      .caption {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 22px;
+        color: #fff;
+        padding: 8px 16px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 4px;
+      }
+    }
+  
+    a.prev,
+    a.next {
+      position: absolute;
+      top: 50%;
+      font-size: 30px;
+      cursor: pointer;
+      user-select: none;
+      color: #ffffff;
+      padding: 12px;
+      transition: 0.2s;
+  
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 3px;
+      }
+    }
+    .next {
+      right: 20px;
+    }
+    .prev {
+      left: 20px;
+    }
+  }
+  
+  .show {
+    animation: fade 0.5s ease-out;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+.header-img img{
+    height: 600px;
+    width: 675px;
+}
+.header-img{
+}
+.layers{
+    margin-bottom: 30px;
+}
+.layers img{
+    margin-top: 38px;
+    width: 650px;
+    height: 520px;
+}
+
+.layers svg{
+    width: 560px;
+    height: 500px;
+}
+.keypoints img{
+    height: 80px;
+    width: 80px;
+}
+.keypoints{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    
+    font-weight: 500;
+}
+#text{
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    font-weight: 900;
+    text-align: center;
+}
+.keypoints .col{
+    text-align: center;
+    padding-top: 15px;
+    margin: 8px;
+    background-color: #fafafa;
+    
+}
+.keypoints p{
+    text-align: initial;
+}
+.cardItem {
+    margin-top: 100px;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: all 500ms ease-in-out;
+    background-color: #eee;
+  }
+.cardItem:hover {
+    margin-top: 52px;
+    cursor: pointer;
+    box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+.m-colors{
+    padding: 20px;
+    font-weight: 900;
+}
+#contact{
+    background-color: #4D8AF0;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+#contact img{
+    margin-top: 70px;
+    width: 380px;
+    height: 240px;
+}
+#contact .text1{
+    margin-top: 70px;
+    text-align: initial;
+}
+#contact .text2{
+    margin-top: 70px;
+    text-align: initial;
+    padding-right: 0px;
+}
+
+#contact svg{
+    height: 360px;
+    width: 380px;
+}
+.last-foot{
+    background-color: #575A89; 
+    padding: 10px;
+    text-align: center !important;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+#facebook{
+    animation: fgo-in 1s ease-in-out infinite alternate;
+    transform-origin: top;
+}
+#pin{
+    animation: pgo-in 1s ease-in-out infinite alternate;
+    transform-origin: top;
+}
+#twitter,
+#gplus,
+#in{
+    animation: go-in 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+
+
+@keyframes pgo-in{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(55deg);
+    }
+}
+
+
+@keyframes fgo-in{
+    from{
+        transform: rotate3D(0 ,0 ,0 ,0deg);
+    }
+    to{
+        transform: rotate3d(1,-1,-1, 55deg);
+    }
+}
+
+@keyframes go-in{
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateX(45deg);
+    }
+}
+@keyframes go-in{
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateX(45deg);
+    }
+}
+
+
+
+
+#tic{
+    animation: ticc 1.5s infinite linear;
+    transform-origin: center;
+}
+#hand{
+    animation: move 1s ease-in-out infinite alternate;
+    transform-origin: initial;
+}
+#head{
+    animation: shake 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+#rest{
+    animation: shake 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+
+@keyframes ticc{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+@keyframes nodd{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(20deg);
+    }
+}
+@keyframes move{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(10deg);
+    }
+}
+@keyframes shake{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-5deg);
+    }
+}
+
