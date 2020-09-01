@@ -13,6 +13,9 @@ body{
 .navbar{
     background-color: #fff;
 }
+.h-text{
+    font-size: 1.6rem;
+}
 .header{
     padding-top: 50px;
     height: 100vh;
@@ -22,14 +25,17 @@ body{
     padding-top: 70px;
 }
 .header-contant img{
-    height: 150px;
-    width: 390px;
+    height: 30%;
+    width: 50%;
+}
+.header-contant #main{
+    height: 70%;
+    width: 70%;
 }
 
-
 .slider {
-    height: 100vh;
-    width: 100%;
+    height: 100%;
+    width: 80%;
     position: relative;
     margin: auto;
   
@@ -95,28 +101,33 @@ body{
     }
   }
 .header-img img{
-    height: 580px;
-    width: 620px;
+    height: 100%;
+    width: 100%;
 }
-.header-img{
+.main{
+    height: 100%;
+    width: 100%;
 }
 .layers{
     margin-bottom: 30px;
 }
+.layers .col{
+    padding: 0;
+}
 .layers img{
     margin-top: 38px;
-    width: 650px;
-    height: 520px;
+    width: 80%;
+    height: 90%;
 }
 
 .layers svg{
-    width: 560px;
-    height: 500px;
+    width: 70%;
+    height: 75%;
 }
 .keypoints img,
 .keypoints svg{
-    height: 80px;
-    width: 80px;
+    height: 30%;
+    width: 30%;
 }
 .keypoints{
     margin-left: 100px;
@@ -126,7 +137,7 @@ body{
     font-weight: 500;
 }
 #text{
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     margin-bottom: .5rem;
     margin-top: .5rem;
     font-weight: 900;
@@ -141,14 +152,13 @@ body{
 }
 .keypoints p{
     text-align: initial;
+    font-size: .92rem;
 }
 .cardItem {
-    margin-top: 100px;
-    margin-right: 20px;
-    padding: 20px;
+    padding-top: 15px;
+    background-color: #fafafa;
     text-align: center;
     transition: all 500ms ease-in-out;
-    background-color: #4D8AF0;
   }
 .cardItem:hover {
     margin-top: 52px;
@@ -156,13 +166,21 @@ body{
     box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
     transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   }
+  #about .row > div{
+      margin: 5px;
+  }
 .m-colors{
     padding: 20px;
     font-weight: 900;
+    height: 100%;
+    width: 100%;
 }
 .m-colors img{
-    width: 1520px;
-    height: 580px;
+    width: 90%;
+}
+.footer{
+    width: 100%;
+
 }
 #contact{
     background-color: #4D8AF0;
@@ -172,29 +190,32 @@ body{
 }
 #contact img{
     padding-left: inherit;
-    margin-top: 70px;
-    width: 340px;
-    height: 240px;
+    margin-top: 25%;
+    width: 90%;
+    height: 75%;
 }
 #contact .text1{
-    margin-top: 70px;
+    margin-top: 5%;
     text-align: initial;
+    font-size: 55%;
 }
 #contact .text2{
-    margin-top: 70px;
+    font-size: 60%;
+    margin-top: 5%;
     text-align: initial;
     padding-right: 0px;
 }
 
 #contact svg{
-    height: 360px;
-    width: 380px;
+    height: 100%;
+    width: 100%;
 }
 .last-foot p{
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
 .last-foot{
+    width: 100%;
     background-color: #575A89; 
     padding: 10px;
     text-align: center !important;
@@ -309,3 +330,9 @@ body{
     }
 }
 
+
+@media only screen and (max-width: 600px) {
+    div.header {
+      height: 50vh !important;
+    }
+  }
