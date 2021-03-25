@@ -22,7 +22,7 @@ body{
     width: 100%;
 }
 #home{
-    background: url(img/d5.jpg); 
+    background: url("img/d5.jpg"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
