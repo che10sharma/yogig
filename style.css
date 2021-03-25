@@ -21,6 +21,13 @@ body{
     height: 100vh;
     width: 100%;
 }
+#home{
+    background: url(./img/d5.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .header-contant{
     padding-top: 70px;
 }
@@ -329,8 +336,6 @@ body{
         transform: rotateZ(-5deg);
     }
 }
-
-
 @media only screen and (max-width: 600px) {
     div.header {
       height: 50vh !important;
